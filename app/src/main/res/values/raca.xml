@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings dos Cães -->
+    <string-array name="caes_pt">
+        <item>Raça</item>
+        <item>Afegão Hound</item>
+        <item>Affenpinscher</item>
+        <item>Airedale Terrier</item>
+        <item>Akita</item>
+        <item>American Staffordshire Terrier</item>
+        <item>Basenji</item>
+        <item>Basset Hound</item>
+        <item>Beagle</item>
+        <item>Beagle Harrier</item>
+        <item>Bearded Collie</item>
+        <item>Bedlington Terrier</item>
+        <item>Bichon Frisé</item>
+        <item>Bloodhound</item>
+        <item>Bobtail</item>
+        <item>Boiadeiro Australiano</item>
+        <item>Boiadeiro Bernês</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Borzoi</item>
+        <item>Boston Terrier</item>
+        <item>Boxer</item>
+        <item>Buldogue Francês</item>
+        <item>Buldogue Inglês</item>
+        <item>Bull Terrier</item>
+        <item>Bulmastife</item>
+        <item>Cairn Terrier</item>
+        <item>Cane Corso</item>
+        <item>Cao de Água Português</item>
+        <item>Cao de Crista Chinês</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chihuahua</item>
+        <item>Chow Chow</item>
+        <item>Cocker Spaniel Americano</item>
+        <item>Cocker Spaniel Inglês</item>
+        <item>Collie</item>
+        <item>Coton de Tuléar</item>
+        <item>Dachshund</item>
+        <item>Dálmata</item>
+        <item>Dandie Dinmont Terrier</item>
+        <item>Dobermann</item>
+        <item>Dogo Argentino</item>
+        <item>Dogue Alemão</item>
+        <item>Fila Brasileiro</item>
+        <item>Fox Terrier</item>
+        <item>Foxhound Inglês</item>
+        <item>Galgo Escocês</item>
+        <item>Galgo Irlandês</item>
+        <item>Golden Retriever</item>
+        <item>Grande Boiadeiro Suiço</item>
+        <item>Greyhound</item>
+        <item>Grifo da Bélgica</item>
+        <item>Husky Siberiano</item>
+        <item>Jack Russell Terrier</item>
+        <item>King Charles</item>
+        <item>Komondor</item>
+        <item>Labradoodle</item>
+        <item>Labrador Retriever</item>
+        <item>Lakeland Terrier</item>
+        <item>Leonberger</item>
+        <item>Lhasa Apso</item>
+        <item>Lulu da Pomerânia</item>
+        <item>Malamute do Alasca</item>
+        <item>Maltês</item>
+        <item>Mastife</item>
+        <item>Mastim Napolitano</item>
+        <item>Mastim Tibetano</item>
+        <item>Norfolk Terrier</item>
+        <item>Norwich Terrier</item>
+        <item>Papillon</item>
+        <item>Pastor Alemão</item>
+        <item>Pastor Australiano</item>
+        <item>Pinscher Miniatura</item>
+        <item>Poodle</item>
+        <item>Pug</item>
+        <item>Rottweiler</item>
+        <item>ShihTzu</item>
+        <item>Silky Terrier</item>
+        <item>Skye Terrier</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Terra Nova</item>
+        <item>Terrier Escocês</item>
+        <item>Tosa</item>
+        <item>Weimaraner</item>
+        <item>Welsh Corgi</item>
+        <item>West Highland White Terrier</item>
+        <item>Whippet</item>
+        <item>Xoloitzcuintli</item>
+        <item>Yorkshire Terrier</item>
+    </string-array>
+
+    <string-array name="caes_cn">
+        <item>种族</item>
+        <item>阿富汗猎犬</item>
+        <item>阿芬平彻</item>
+        <item>大狗梗</item>
+        <item>秋田</item>
+        <item>美国斯塔福郡梗犬</item>
+        <item>巴森吉</item>
+        <item>贝塞猎狗</item>
+        <item>小猎犬</item>
+        <item>小猎犬猎兔犬</item>
+        <item>大胡子牧羊犬</item>
+        <item>贝灵顿梗</item>
+        <item>比熊弗里斯（比熊弗里斯）</item>
+        <item>猎狗犬</item>
+        <item>短尾猫</item>
+        <item>澳大利亚牛仔</item>
+        <item>伯恩牛仔</item>
+        <item>边境牧羊犬</item>
+        <item>边境梗犬</item>
+        <item>波尔佐伊</item>
+        <item>波士顿梗犬</item>
+        <item>拳击手</item>
+        <item>法国斗牛犬</item>
+        <item>英国斗牛犬</item>
+        <item>斗牛梗</item>
+        <item>保加利亚</item>
+        <item>凯恩梗</item>
+        <item>甘蔗科索</item>
+        <item>葡萄牙水犬</item>
+        <item>中国冠毛犬</item>
+        <item>骑士查尔斯王猎犬</item>
+        <item>切萨皮克湾寻回犬</item>
+        <item>奇瓦瓦州</item>
+        <item>松狮</item>
+        <item>美国可卡犬</item>
+        <item>英国可卡犬</item>
+        <item>牧羊犬</item>
+        <item>图拉尔河畔</item>
+        <item>腊肠犬</item>
+        <item>达尔马提亚</item>
+        <item>丹迪·丁蒙特梗</item>
+        <item>杜宾</item>
+        <item>阿根廷多哥</item>
+        <item>大丹狗</item>
+        <item>巴西菲拉</item>
+        <item>狐狸梗</item>
+        <item>英语猎狐犬</item>
+        <item>苏格兰灵狮</item>
+        <item>爱尔兰灵缇</item>
+        <item>金毛寻回犬</item>
+        <item>伟大的瑞士牛仔</item>
+        <item>灵缇</item>
+        <item>来自比利时的格里芬</item>
+        <item>西伯利亚雪橇犬</item>
+        <item>杰克罗素梗犬</item>
+        <item>查尔斯国王</item>
+        <item>科蒙多尔</item>
+        <item>拉布拉多</item>
+        <item>拉布拉多犬</item>
+        <item>莱克兰梗</item>
+        <item>莱昂伯格</item>
+        <item>拉萨Apso </item>
+        <item>博美犬露露</item>
+        <item>阿拉斯加雪橇犬</item>
+        <item>马耳他语</item>
+        <item>藏ast </item>
+        <item>那不勒斯M犬</item>
+        <item>藏M </item>
+        <item>诺福克梗</item>
+        <item>诺里奇梗</item>
+        <item>巴比龙</item>
+        <item>德国牧羊犬</item>
+        <item>澳大利亚牧羊犬</item>
+        <item>迷你杜宾犬</item>
+        <item>贵宾犬</item>
+        <item>哈巴狗</item>
+        <item>罗威纳</item>
+        <item>西施犬</item>
+        <item>柔滑梗</item>
+        <item>斯凯梗</item>
+        <item>斯塔福德郡斗牛梗</item>
+        <item>新天地</item>
+        <item>苏格兰梗</item>
+        <item>土佐</item>
+        <item>魏玛纳尔</item>
+        <item>威尔士科基犬</item>
+        <item>西部高地白梗</item>
+        <item>鞭子</item>
+        <item>墨西哥去皮</item>
+        <item>约克夏犬</item>
+    </string-array>
+
+    <string-array name="caes_en">
+        <item> Race </item>
+        <item> Afghan Hound </item>
+        <item> Affenpinscher </item>
+        <item> Airedale Terrier </item>
+        <item> Akita </item>
+        <item> American Staffordshire Terrier </item>
+        <item> Basenji </item>
+        <item> Basset Hound </item>
+        <item> Beagle </item>
+        <item> Beagle Harrier </item>
+        <item> Bearded Collie </item>
+        <item> Bedlington Terrier </item>
+        <item> Bichon Frisé </item>
+        <item> Bloodhound </item>
+        <item> Bobtail </item>
+        <item> Australian Cowboy </item>
+        <item> Bernese cowboy </item>
+        <item> Border Collie </item>
+        <item> Border Terrier </item>
+        <item> Borzoi </item>
+        <item> Boston Terrier </item>
+        <item> Boxer </item>
+        <item> French Bulldog </item>
+        <item> English Bulldog </item>
+        <item> Bull Terrier </item>
+        <item> Bulmastife </item>
+        <item> Cairn Terrier </item>
+        <item> Cane Corso </item>
+        <item> Portuguese Water Dog </item>
+        <item> Chinese Crested Dog </item>
+        <item> Cavalier King Charles Spaniel </item>
+        <item> Chesapeake Bay Retriever </item>
+        <item> Chihuahua </item>
+        <item> Chow Chow </item>
+        <item> American Cocker Spaniel </item>
+        <item> English Cocker Spaniel </item>
+        <item> Collie </item>
+        <item> Coton de Tuléar </item>
+        <item> Dachshund </item>
+        <item> Dalmatian </item>
+        <item> Dandie Dinmont Terrier </item>
+        <item> Dobermann </item>
+        <item> Dogo Argentino </item>
+        <item> Great Dane </item>
+        <item> Fila Brasileiro </item>
+        <item> Fox Terrier </item>
+        <item> English Foxhound </item>
+        <item> Scottish Greyhound </item>
+        <item> Irish Greyhound </item>
+        <item> Golden Retriever </item>
+        <item> Great Swiss Cowboy </item>
+        <item> Greyhound </item>
+        <item> Griffin from Belgium </item>
+        <item> Siberian Husky </item>
+        <item> Jack Russell Terrier </item>
+        <item> King Charles </item>
+        <item> Komondor </item>
+        <item> Labradoodle </item>
+        <item> Labrador Retriever </item>
+        <item> Lakeland Terrier </item>
+        <item> Leonberger </item>
+        <item> Lhasa Apso </item>
+        <item> Pomeranian Lulu </item>
+        <item> Alaskan Malamute </item>
+        <item> Maltese </item>
+        <item> Mastiff </item>
+        <item> Neapolitan Mastiff </item>
+        <item> Tibetan Mastiff </item>
+        <item> Norfolk Terrier </item>
+        <item> Norwich Terrier </item>
+        <item> Papillon </item>
+        <item> German Shepherd </item>
+        <item> Australian Shepherd </item>
+        <item> Miniature Pinscher </item>
+        <item> Poodle </item>
+        <item> Pug </item>
+        <item> Rottweiler </item>
+        <item> ShihTzu </item>
+        <item> Silky Terrier </item>
+        <item> Skye Terrier </item>
+        <item> Staffordshire Bull Terrier </item>
+        <item> Newfoundland </item>
+        <item> Scottish Terrier </item>
+        <item> Tosa </item>
+        <item> Weimaraner </item>
+        <item> Welsh Corgi </item>
+        <item> West Highland White Terrier </item>
+        <item> Whippet </item>
+        <item> Xoloitzcuintli </item>
+        <item> Yorkshire Terrier </item>
+    </string-array>
+
+    <string-array name="caes_fr">
+        <item> Lévrier afghan </item>
+        <item> Affenpinscher </item>
+        <item> Airedale Terrier </item>
+        <item> Akita </item>
+        <item> American Staffordshire Terrier </item>
+        <item> Basenji </item>
+        <item> Basset Hound </item>
+        <item> Beagle </item>
+        <item> Beagle Harrier </item>
+        <item> Colley barbu </item>
+        <item> Bedlington Terrier </item>
+        <item> Bichon Frisé </item>
+        <item> Bloodhound </item>
+        <item> Bobtail </item>
+        <item> Cowboy australien </item>
+        <item> Cowboy bernois </item>
+        <item> Border Collie </item>
+        <item> Border Terrier </item>
+        <item> Borzoi </item>
+        <item> Boston Terrier </item>
+        <item> Boxeur </item>
+        <item> Bouledogue français </item>
+        <item> Bulldog anglais </item>
+        <item> Bull Terrier </item>
+        <item> Bulmastife </item>
+        <item> Cairn Terrier </item>
+        <item> Cane Corso </item>
+        <item> Chien d´eau portugais </item>
+        <item> Chien chinois à crête </item>
+        <item> Cavalier King Charles Spaniel </item>
+        <item> Retriever de la baie de Chesapeake </item>
+        <item> Chihuahua </item>
+        <item> Chow Chow </item>
+        <item> Cocker américain </item>
+        <item> Cocker anglais </item>
+        <item> Colley </item>
+        <item> Coton de Tuléar </item>
+        <item> Teckel </item>
+        <item> Dalmatien </item>
+        <item> Dandie Dinmont Terrier </item>
+        <item> Dobermann </item>
+        <item> Dogo Argentino </item>
+        <item> Great Dane </item>
+        <item> Fila Brasileiro </item>
+        <item> Fox Terrier </item>
+        <item> Foxhound anglais </item>
+        <item> Greyhound écossais </item>
+        <item> Greyhound irlandais </item>
+        <item> Golden Retriever </item>
+        <item> Grand cowboy suisse </item>
+        <item> Greyhound </item>
+        <item> Griffin de Belgique </item>
+        <item> Husky de Sibérie </item>
+        <item> Jack Russell Terrier </item>
+        <item> Roi Charles </item>
+        <item> Komondor </item>
+        <item> Labradoodle </item>
+        <item> Labrador Retriever </item>
+        <item> Lakeland Terrier </item>
+        <item> Léonberger </item>
+        <item> Lhassa Apso </item>
+        <item> Lulu de Poméranie </item>
+        <item> Malamute d´Alaska </item>
+        <item> maltais </item>
+        <item> Mastiff </item>
+        <item> Mastiff napolitain </item>
+        <item> Mastiff tibétain </item>
+        <item> Norfolk Terrier </item>
+        <item> Norwich Terrier </item>
+        <item> Papillon </item>
+        <item> Berger allemand </item>
+        <item> Berger australien </item>
+        <item> Pinscher nain </item>
+        <item> Caniche </item>
+        <item> Carlin </item>
+        <item> Rottweiler </item>
+        <item> ShihTzu </item>
+        <item> Terrier soyeux </item>
+        <item> Skye Terrier </item>
+        <item> Staffordshire Bull Terrier </item>
+        <item> Terre-Neuve </item>
+        <item> Terrier écossais </item>
+        <item> Tosa </item>
+        <item> Braque de Weimar </item>
+        <item> Welsh Corgi </item>
+        <item> West Highland White Terrier </item>
+        <item> Whippet </item>
+        <item> Xoloitzcuintli </item>
+        <item> Yorkshire Terrier </item>
+    </string-array>
+
+    <!-- Strings dos Gatos -->
+    <string-array name="gatos_pt">
+        <item>Raça</item>
+        <item>Abissínio</item>
+        <item>American Wirehair</item>
+        <item>Asian</item>
+        <item>Australian Mist</item>
+        <item>Bengal</item>
+        <item>Bobtail Americano</item>
+        <item>Bombay</item>
+        <item>Burmês</item>
+        <item>Burmilla</item>
+        <item>Cornish Rex</item>
+        <item>Curl Americano</item>
+        <item>Devon Rex</item>
+        <item>Don Sphynx</item>
+        <item>Egyptian Mau</item>
+        <item>Exotic Shorthair</item>
+        <item>German Rex</item>
+        <item>Havana</item>
+        <item>Khao Manee</item>
+        <item>Korat</item>
+        <item>Kurilian Bobtail</item>
+        <item>Manx</item>
+        <item>Munchkin</item>
+        <item>Ocicat</item>
+        <item>Oriental</item>
+        <item>Peterbald</item>
+        <item>Pixiebob</item>
+        <item>Russian</item>
+        <item>Seychellois</item>
+        <item>Shorthair Americano</item>
+        <item>Shorthair Britânico</item>
+        <item>Siamês</item>
+        <item>Singapura</item>
+        <item>Angorá Turco</item>
+        <item>Bobtail Japonês</item>
+        <item>Chartreux</item>
+        <item>Cymric</item>
+        <item>Gato Bosques da Noruega</item>
+        <item>LaPerm</item>
+        <item>Maine Coon</item>
+        <item>RagaMuffin</item>
+        <item>Ragdoll</item>
+        <item>Sagrado da Birmânia</item>
+        <item>Scottish Fold</item>
+        <item>Scottish Straight</item>
+        <item>Selkirk Rex</item>
+        <item>Somali</item>
+        <item>Van Turco</item>
+        <item>Balinês</item>
+        <item>Longhair Britânico</item>
+        <item>Neva Masquerade</item>
+        <item>Persa</item>
+        <item>Siberiano</item>
+    </string-array>
+
+
+    <string-array name="gatos_cn">
+        <item>种族</item>
+        <item>阿比西尼亚</item>
+        <item>美国线毛</item>
+        <item>亚洲</item>
+        <item>澳大利亚雾</item>
+        <item>孟加拉</item>
+        <item>美国短尾猫</item>
+        <item>孟买</item>
+        <item>缅甸人</item>
+        <item>Burmilla</item>
+        <item>康沃尔雷克斯</item>
+        <item>美国卷发</item>
+        <item>德文郡雷克斯</item>
+        <item>唐·斯芬克斯</item>
+        <item>埃及茂</item>
+        <item>异国短毛猫</item>
+        <item>德国雷克斯</item>
+        <item>哈瓦那</item>
+        <item>考马尼</item>
+        <item>呵叻</item>
+        <item>克里里安短尾猫</item>
+        <item>曼克斯</item>
+        <item>蒙奇金</item>
+        <item>奥西卡特</item>
+        <item>东方</item>
+        <item>彼得巴尔</item>
+        <item> Pixiebob </item>
+        <item>俄语</item>
+        <item>塞舌尔</item>
+        <item>美国短毛猫</item>
+        <item>英国短毛猫</item>
+        <item>暹罗语</item>
+        <item>新加坡</item>
+        <item>土耳其安哥拉</item>
+        <item>日本短尾猫</item>
+        <item>查特勒斯</item>
+        <item> Cymric </item>
+        <item>挪威森林猫</item>
+        <item> LaPerm </item>
+        <item>缅因州</item>
+        <item> 拉加松饼</item>
+        <item>布娃娃</item>
+        <item>神圣的缅甸</item>
+        <item>苏格兰折耳猫</item>
+        <item>苏格兰直</item>
+        <item>塞尔克雷克斯</item>
+        <item>索马里</item>
+        <item>土耳其范</item>
+        <item>巴厘岛</item>
+        <item>英国长发</item>
+        <item>涅瓦河化装舞会</item>
+        <item>波斯语</item>
+        <item>西伯利亚</item>
+
+    </string-array>
+
+    <string-array name="gatos_en">
+        <item> Race </item>
+        <item> Abyssinian </item>
+        <item> American Wirehair </item>
+        <item> Asian </item>
+        <item> Australian Mist </item>
+        <item> Bengal </item>
+        <item> American Bobtail </item>
+        <item> Bombay </item>
+        <item> Burmese </item>
+        <item> Burmilla </item>
+        <item> Cornish Rex </item>
+        <item> American Curl </item>
+        <item> Devon Rex </item>
+        <item> Don Sphynx </item>
+        <item> Egyptian Mau </item>
+        <item> Exotic Shorthair </item>
+        <item> German Rex </item>
+        <item> Havana </item>
+        <item> Khao Manee </item>
+        <item> Korat </item>
+        <item> Kurilian Bobtail </item>
+        <item> Manx </item>
+        <item> Munchkin </item>
+        <item> Ocicat </item>
+        <item> Oriental </item>
+        <item> Peterbald </item>
+        <item> Pixiebob </item>
+        <item> Russian </item>
+        <item> Seychellois </item>
+        <item> American Shorthair </item>
+        <item> British Shorthair </item>
+        <item> Siamese </item>
+        <item> Singapore </item>
+        <item> Turkish Angora </item>
+        <item> Japanese Bobtail </item>
+        <item> Chartreux </item>
+        <item> Cymric </item>
+        <item> Norwegian Forest Cat </item>
+        <item> LaPerm </item>
+        <item> Maine Coon </item>
+        <item> RagaMuffin </item>
+        <item> Ragdoll </item>
+        <item> Sacred Burma </item>
+        <item> Scottish Fold </item>
+        <item> Scottish Straight </item>
+        <item> Selkirk Rex </item>
+        <item> Somali </item>
+        <item> Van Turco </item>
+        <item> Balinese </item>
+        <item> British Longhair </item>
+        <item> Neva Masquerade </item>
+        <item> Persian </item>
+        <item> Siberian </item>
+    </string-array>
+
+    <string-array name="gatos_fr">
+        <item> Course </item>
+        <item> Abyssin </item>
+        <item> American Wirehair </item>
+        <item> Asiatique </item>
+        <item> Brume australienne </item>
+        <item> Bengale </item>
+        <item> Bobtail américain </item>
+        <item> Bombay </item>
+        <item> birman </item>
+        <item> Burmilla </item>
+        <item> Cornish Rex </item>
+        <item> American Curl </item>
+        <item> Devon Rex </item>
+        <item> Don Sphynx </item>
+        <item> Mau égyptien </item>
+        <item> Exotic Shorthair </item>
+        <item> Rex allemand </item>
+        <item> La Havane </item>
+        <item> Khao Manee </item>
+        <item> Korat </item>
+        <item> Bobtail kurilien </item>
+        <item> Manx </item>
+        <item> Munchkin </item>
+        <item> Ocicat </item>
+        <item> Oriental </item>
+        <item> Peterbald </item>
+        <item> Pixiebob </item>
+        <item> Russe </item>
+        <item> Seychellois </item>
+        <item> American Shorthair </item>
+        <item> British Shorthair </item>
+        <item> Siamois </item>
+        <item> Singapour </item>
+        <item> Angora turc </item>
+        <item> Bobtail japonais </item>
+        <item> Chartreux </item>
+        <item> Cymrique </item>
+        <item> Chat des forêts norvégiennes </item>
+        <item> LaPerm </item>
+        <item> Maine Coon </item>
+        <item> RagaMuffin </item>
+        <item> Ragdoll </item>
+        <item> Birmanie sacrée </item>
+        <item> Scottish Fold </item>
+        <item> Scottish Straight </item>
+        <item> Selkirk Rex </item>
+        <item> Somali </item>
+        <item> Van Turco </item>
+        <item> Balinais </item>
+        <item> British Longhair </item>
+        <item> Neva Masquerade </item>
+        <item> Persan </item>
+        <item> Sibérien </item>
+
+    </string-array>
+
+</resources>

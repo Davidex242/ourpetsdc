@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        android:id="@+id/Rl_Data"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtTipo"
+            android:layout_width="wrap_content"
+            app:layout_widthPercent="50%"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/txtNomeVac"
+            android:layout_toEndOf="@+id/txtTipo"
+            app:layout_widthPercent="50%"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/custom_input"
+            android:elevation="1dp"
+            android:ems="10"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_below="@+id/Rl_Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.percentlayout.widget.PercentRelativeLayout
+            android:id="@+id/rl_moreData"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="@drawable/custom_input"
+                android:visibility="gone"
+                android:id="@+id/txtEditDataVac"
+                app:layout_widthPercent="50%"
+                android:layout_width="0dp"
+                android:layout_height="40dp">
+
+                <EditText
+                    android:id="@+id/txtDataDia"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:hint="dd"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:textSize="15sp"
+                    android:inputType="date"
+                    android:background="@null"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txt_tra"
+                    android:layout_toEndOf="@+id/txtDataDia"
+                    android:layout_width="15dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:enabled="false"
+                    android:text="/"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txtDataMes"
+                    android:layout_toEndOf="@+id/txt_tra"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:hint="mm"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textSize="15sp"
+                    android:background="@null"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txt_2_tra"
+                    android:layout_toEndOf="@+id/txtDataMes"
+                    android:layout_width="15dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:text="/"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textSize="15sp"
+                    android:background="@null"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txtDataAno"
+                    android:layout_toEndOf="@+id/txt_2_tra"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:hint="YYYY"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:textSize="15sp"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="4"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/txtDataVac"
+                app:layout_widthPercent="50%"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_width="0dp" />
+
+            <EditText
+                android:layout_toEndOf="@+id/txtDataVac"
+                android:id="@+id/txtHoraVac"
+                app:layout_widthPercent="50%"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingRight="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_width="0dp" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_toEndOf="@+id/txtDataVac"
+                android:id="@+id/txtEditHoraVac"
+                android:background="@drawable/custom_input"
+                android:layout_width="match_parent"
+                app:layout_widthPercent="50%"
+                android:layout_height="40dp">
+
+                <EditText
+                    android:id="@+id/txtHora"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:hint="hh"
+                    android:textSize="15sp"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:background="@null"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txt_trac"
+                    android:layout_toEndOf="@+id/txtHora"
+                    android:layout_width="15dp"
+                    android:layout_height="60dp"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:text=":"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:background="@null"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/txtMin"
+                    android:layout_toEndOf="@+id/txt_trac"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:hint="mm"
+                    android:elevation="1dp"
+                    android:ems="10"
+                    android:background="@null"
+                    android:inputType="date"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="2"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+            <CheckBox
+                android:id="@+id/chkBoxVacina"
+                android:layout_below="@+id/txtHoraVac"
+                app:layout_widthPercent="50%"
+                android:layout_width="40dp"
+                android:gravity="center"
+                android:background="@drawable/custom_input"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                />
+
+            <RelativeLayout
+                android:layout_below="@+id/txtHoraVac"
+                android:layout_toEndOf="@+id/chkBoxVacina"
+                app:layout_widthPercent="50%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/editChange"
+                        android:src="@drawable/ic_pencil_edit"
+                        android:layout_margin="5dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                    <ImageView
+                        android:id="@+id/imgCanceChanges"
+                        android:layout_toEndOf="@+id/editChange"
+                        android:src="@drawable/ic_cancel_edit"
+                        android:layout_margin="5dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                    <ImageView
+                        android:id="@+id/imgSaveChanges"
+                        android:layout_toEndOf="@+id/imgCanceChanges"
+                        android:src="@drawable/ic_save_edit"
+                        android:layout_margin="5dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.percentlayout.widget.PercentRelativeLayout>
+
+    </RelativeLayout>
+
+
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        android:id="@+id/rl_plus"
+        android:layout_below="@+id/rl"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_info"
+            android:layout_margin="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_down_arrow"/>
+
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

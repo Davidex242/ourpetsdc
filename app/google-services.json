@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "8327134908",
+    "firebase_url": "https://ourpetsdc-610f5.firebaseio.com",
+    "project_id": "ourpetsdc-610f5",
+    "storage_bucket": "ourpetsdc-610f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8327134908:android:d57657a78589463e71dab9",
+        "android_client_info": {
+          "package_name": "com.examples.ourpetsdc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8327134908-1prg52jp19uggkimnakk3b9f7rovvkl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pymNUUk9wJT_U6uX1GfADUiBu1VJayY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8327134908-1prg52jp19uggkimnakk3b9f7rovvkl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

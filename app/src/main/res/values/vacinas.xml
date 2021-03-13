@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="vac_caes_pt">
+        <item>Escolha a vacina</item>
+        <item>V8</item>
+        <item>V10</item>
+        <item>Antirrábica</item>
+        <item>Rinotraqueite Infecciosa</item>
+        <item>Giardíase</item>
+    </string-array>
+
+    <string-array name="vac_caes_cn">
+        <item>选择疫苗</item>
+        <item>V8</item>
+        <item>V10</item>
+        <item>抗狂犬病</item>
+        <item>传染性鼻气管炎</item>
+        <item>贾第虫病</item>
+    </string-array>
+
+    <string-array name="vac_caes_en">
+        <item>Choose the vaccine</item>
+        <item>V8</item>
+        <item>V10</item>
+        <item>Anti-rabies</item>
+        <item>Infectious rhinotracheitis</item>
+        <item>Giardiasis</item>
+    </string-array>
+
+    <string-array name="vac_caes_fr">
+        <item>Choisissez le vaccin</item>
+        <item>V8</item>
+        <item>V10</item>
+        <item>Contre la rage</item>
+        <item>Rhinotrachéite infectieuse</item>
+        <item>Giardiase</item>
+    </string-array>
+
+    <string-array name="vac_gatos_pt">
+        <item>Escolha a vacina</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>Antirrábica</item>
+    </string-array>
+
+    <string-array name="vac_gatos_cn">
+        <item>选择疫苗</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>抗狂犬病</item>
+    </string-array>
+
+    <string-array name="vac_gatos_en">
+        <item>Choose the vaccine</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>Anti-rabies</item>
+    </string-array>
+
+    <string-array name="vac_gatos_fr">
+        <item>Choisissez le vaccin</item>
+        <item>V3</item>
+        <item>V4</item>
+        <item>V5</item>
+        <item>Contre la rage</item>
+    </string-array>
+
+</resources>

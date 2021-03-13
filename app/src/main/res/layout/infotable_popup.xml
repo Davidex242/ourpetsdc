@@ -1,0 +1,2322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_margin="10dp"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:id="@+id/tablegGatosPT"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+
+                <TextView
+                    android:layout_width="27dp"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VACINAS PARA GATOS"
+                        android:textAlignment="center"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:id="@+id/txtVacs"
+                    android:text="Vacina"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:id="@+id/txtDose"
+                    android:text="Doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V3"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1º Dose (45 dias)" />
+                        <TextView
+                            android:id="@+id/sedosev3"
+                            android:layout_below="@id/priDosev3"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2º Dose (75 Dias)" />
+                        <TextView
+                            android:id="@+id/terdosev3"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev3"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3º Dose (105 dias)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev3"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Reforço anual" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V4"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDoseV4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1º Dose (45 dias)"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:id="@+id/sedoseV4"
+                            android:layout_below="@id/priDoseV4"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2º Dose (75 Dias)" />
+                        <TextView
+                            android:id="@+id/terdose4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedoseV4"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3º Dose (105 dias)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdose4"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Reforço anual" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="V5"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDoseV5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1º Dose (45 dias)"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:id="@+id/sedoseV5"
+                            android:layout_below="@id/priDoseV5"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2º Dose (75 Dias)" />
+                        <TextView
+                            android:id="@+id/terdose5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedoseV5"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3º Dose (105 dias)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdose5"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Reforço anual" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Antirrábica"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/Rabica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="120 Dias" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/Rabica"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Reforço anual" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablegGatosEn"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+
+                <TextView
+                    android:layout_width="27dp"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CAT VACCINES"
+                        android:textAlignment="center"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+
+                    android:text="Vaccine"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+
+                    android:text="Doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V3"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev3En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1st dose (45 days)" />
+                        <TextView
+                            android:id="@+id/sedosev3En"
+                            android:layout_below="@id/priDosev3En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2nd Dose (75 Days)" />
+                        <TextView
+                            android:id="@+id/terdosev3En"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev3En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev3En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V4"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev4En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1st dose (45 days)" />
+                        <TextView
+                            android:id="@+id/sedosev4En"
+                            android:layout_below="@id/priDosev4En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2nd Dose (75 Days)" />
+                        <TextView
+                            android:id="@+id/terdosev4En"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev4En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev4En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="V5"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev5En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1st dose (45 days)" />
+                        <TextView
+                            android:id="@+id/sedosev5En"
+                            android:layout_below="@id/priDosev5En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2nd Dose (75 Days)" />
+                        <TextView
+                            android:id="@+id/terdosev5En"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev5En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev5En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anti-rabies"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/RabicaEn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="120 Days" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicaEn"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Annual reinforcement" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablegGatosFr"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+
+                <TextView
+                    android:layout_width="27dp"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VACCINS POUR CHATS"
+                        android:textAlignment="center"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Vaccin"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Les doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V3"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev3Fr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1ère dose (45 jours)" />
+                        <TextView
+                            android:id="@+id/sedosev3Fr"
+                            android:layout_below="@id/priDosev3Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2e dose (75 jours)" />
+                        <TextView
+                            android:id="@+id/terdosev3Fr"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev3Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev3Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V4"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev4Fr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1ère dose (45 jours)" />
+                        <TextView
+                            android:id="@+id/sedosev4Fr"
+                            android:layout_below="@id/priDosev4Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2e dose (75 jours)" />
+                        <TextView
+                            android:id="@+id/terdosev4Fr"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev4Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev4Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="V5"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev5Fr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1ère dose (45 jours)" />
+                        <TextView
+                            android:id="@+id/sedosev5Fr"
+                            android:layout_below="@id/priDosev5Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2e dose (75 jours)" />
+                        <TextView
+                            android:id="@+id/terdosev5Fr"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev5Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev5Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contre la rage"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/RabicaFr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="120 jours" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicaFr"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Renforcement annuel"/>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tablegGatosCn"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+
+                <TextView
+                    android:layout_width="27dp"
+                    android:gravity="left"
+                    android:padding="3dip"
+                    android:text="" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="猫用疫苗"
+                        android:textAlignment="center"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:text="疫苗"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="剂量"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V3"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev3Cn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="第一剂（45天" />
+                        <TextView
+                            android:id="@+id/sedosev3Cn"
+                            android:layout_below="@id/priDosev3Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="第二次（75天）" />
+                        <TextView
+                            android:id="@+id/terdosev3Cn"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev3Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="第三次剂量（105天" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev3Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="年度加固" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V4"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev4Cn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="第一剂（45天" />
+                        <TextView
+                            android:id="@+id/sedosev4Cn"
+                            android:layout_below="@id/priDosev4Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="第二次（75天）" />
+                        <TextView
+                            android:id="@+id/terdosev4Cn"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev4Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="第三次剂量（105天" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev4Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="年度加固" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="V5"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev5Cn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="第一剂（45天" />
+                        <TextView
+                            android:id="@+id/sedosev5Cn"
+                            android:layout_below="@id/priDosev5Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="第二次（75天）" />
+                        <TextView
+                            android:id="@+id/terdosev5Cn"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev5Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="第三次剂量（105天" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev5Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="年度加固" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="对抗狂犬病"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/RabicaCn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="120天" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicaCn"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="年度加固"/>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableCaesPT"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+                <TextView
+                    android:text=""
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="VACINAS PARA CÃES"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:text="Vacina"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V8"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDose"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1º Dose (45 dias)"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:id="@+id/sedose"
+                            android:layout_below="@id/priDose"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2º Dose (75 Dias)" />
+                        <TextView
+                            android:id="@+id/terdose"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedose"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3º Dose (105 dias)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdose"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Reforço anual" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V10"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDoseV10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1º Dose (45 dias)"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:id="@+id/sedoseV10"
+                            android:layout_below="@id/priDoseV10"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2º Dose (75 Dias)" />
+                        <TextView
+                            android:id="@+id/terdoseV10"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedoseV10"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3º Dose (105 dias)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdoseV10"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Reforço anual" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Antirrábica"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+                    <TextView
+                        android:id="@+id/Rabicas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120 Dias"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/Rabicas"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Reforço anual" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/Rinotraqueite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rinotraqueite"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:layout_below="@+id/Rinotraqueite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Infecciosa"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/priDoseRino"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1º Dose (45 dias)"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:id="@+id/sedoseRino"
+                        android:layout_below="@id/priDoseRino"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="2º Dose (Depois de 75 Dias)" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/sedoseRino"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Reforço anual" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Giardíase"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/priDoseGiar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1º Dose (45 dias)"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:id="@+id/sedoseGiar"
+                        android:layout_below="@id/priDoseGiar"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="2º Dose (Depois de 75 Dias)" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/sedoseGiar"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Reforço anual" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableCaesEn"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow>
+                <TextView
+                    android:text=""
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="VACCINES FOR DOGS"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow >
+                <TextView
+                    android:text="Vaccine"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V8"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev8En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1st dose (45 days)" />
+                        <TextView
+                            android:id="@+id/sedosev8En"
+                            android:layout_below="@id/priDosev8En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2nd Dose (75 Days)" />
+                        <TextView
+                            android:id="@+id/terdosev8En"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev8En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev8En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V10"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev10En"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1st dose (45 days)" />
+                        <TextView
+                            android:id="@+id/sedosev10En"
+                            android:layout_below="@id/priDosev10En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2nd Dose (75 Days)" />
+                        <TextView
+                            android:id="@+id/terdosev10En"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev10En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev10En"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Anti-rabies"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+                    <TextView
+                        android:id="@+id/RabicasEnD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120 Days"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicasEnD"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Annual reinforcement" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/Rhinotracheitis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rhinotracheitis"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:layout_below="@+id/Rhinotracheitis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Infectious"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/priDoseInEn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="1st dose (45 days)" />
+                    <TextView
+                        android:id="@+id/sedosevInEn"
+                        android:layout_below="@id/priDoseInEn"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="2nd Dose (75 Days)" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/sedosevInEn"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Annual reinforcement" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableCaesFr"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow>
+                <TextView
+                    android:text=""
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="VACCINS POUR CHIENS"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Vaccin"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="Les doses"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V8"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev8Fr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1ère dose (45 jours)" />
+                        <TextView
+                            android:id="@+id/sedosev8Fr"
+                            android:layout_below="@id/priDosev8Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2e dose (75 jours)" />
+                        <TextView
+                            android:id="@+id/terdosev8Fr"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev8Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev8Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V10"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev10Fr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="1ère dose (45 jours)" />
+                        <TextView
+                            android:id="@+id/sedosev10Fr"
+                            android:layout_below="@id/priDosev10Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="2e dose (75 jours)" />
+                        <TextView
+                            android:id="@+id/terdosev10Fr"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev10Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="3rd Dose (105 Days)" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev10Fr"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="Annual reinforcement" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contre la rage"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+                    <TextView
+                        android:id="@+id/RabicasFrD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120 jours"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicasFrD"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Renforcement annuel"/>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/Rhinotrachéite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rhinotrachéite"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:layout_below="@+id/Rhinotrachéite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Infectieux"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/priDoseInFr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="1ère dose (45 jours)" />
+                    <TextView
+                        android:id="@+id/sedoseInFr"
+                        android:layout_below="@id/priDoseInFr"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="2e dose (75 jours)" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/sedoseInFr"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Annual reinforcement" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableCaesCn"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:stretchColumns="1">
+            <TableRow >
+                <TextView
+                    android:text=""
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="犬疫苗"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+                <TextView
+                    android:text=""
+                    android:gravity="right"
+                    android:padding="3dip" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="疫苗"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+                <TextView
+                    android:text="剂量"
+                    android:textAlignment="center"
+                    android:padding="3dip" />
+
+            </TableRow>
+
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V8"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev8Cn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="第一剂（45天" />
+                        <TextView
+                            android:id="@+id/sedosev8Cn"
+                            android:layout_below="@id/priDosev8Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="第二次（75天）" />
+                        <TextView
+                            android:id="@+id/terdosev8Cn"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev8Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="第三次剂量（105天" />
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/terdosev8Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="年度加固" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V10"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    >
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/priDosev10Cn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip"
+                            android:text="第一剂（45天" />
+                        <TextView
+                            android:id="@+id/sedosev10Cn"
+                            android:layout_below="@id/priDosev10Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+                            android:text="第二次（75天）" />
+                        <TextView
+                            android:id="@+id/terdosev10Cn"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/sedosev10Cn"
+                            android:padding="3dip"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:text="第三次剂量（105天" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/terdosev10Cn"
+                            android:layout_centerHorizontal="true"
+                            android:padding="3dip"
+                            android:text="年度加固"
+                            android:textAlignment="center" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="对抗狂犬病"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    >
+                    <TextView
+                        android:id="@+id/RabicasCnD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="120天"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip" />
+                    <TextView
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/RabicasCnD"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="年度加固"/>
+
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/鼻气管炎"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="鼻气管炎"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                        <TextView
+                            android:layout_below="@+id/鼻气管炎"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="传染性"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center">
+                    <TextView
+                        android:id="@+id/priDose鼻气Cn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="第一剂（45天" />
+                    <TextView
+                        android:id="@+id/sedose鼻气Cn"
+                        android:layout_below="@id/priDose鼻气Cn"
+                        android:padding="3dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"
+                        android:text="第二次（75天）" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/sedose鼻气Cn"
+                        android:layout_centerHorizontal="true"
+                        android:padding="3dip"
+                        android:text="年度加固"
+                        android:textAlignment="center" />
+
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

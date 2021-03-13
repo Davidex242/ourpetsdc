@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="desp_pt">
+        <item>Escolha a Desparasitação</item>
+        <item> Interna</item>
+        <item> Externa</item>
+    </string-array>
+    <string-array name="desp_cn">
+        <item>选择驱虫</item>
+        <item>内部</item>
+        <item>外部</item>
+    </string-array>
+    <string-array name="desp_en">
+        <item>Deworming</item>
+        <item>Internal</item>
+        <item>External</item>
+    </string-array>
+    <string-array name="desp_fr">
+        <item>Vermifuge</item>
+        <item>Interne</item>
+        <item>Externe</item>
+    </string-array>
+</resources>

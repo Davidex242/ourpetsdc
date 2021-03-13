@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:background="#fff"
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/RL_Campos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <RadioGroup
+                android:layout_centerHorizontal="true"
+                android:id="@+id/radioGroup"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/btnGato"
+                    android:layout_margin="5dp"
+                    android:layout_toEndOf="@+id/btnCao"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingEnd="16dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingRight="16dp"
+                    android:layout_height="60dp"/>
+
+                <RadioButton
+                    android:id="@+id/btnCao"
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:paddingStart="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_width="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_height="60dp"/>
+
+            </RadioGroup>
+
+
+            <EditText
+                android:layout_below="@+id/radioGroup"
+                android:id="@+id/txtNomePet"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/rl_data"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/txtNomePet"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_input">
+                <RelativeLayout
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <!--<EditText
+                        android:id="@+id/txtDataDia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint=""
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="2"
+                        android:textColor="@color/black" />-->
+
+                    <EditText
+                        android:id="@+id/txtDataDia"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="dd"
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="2"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/txt_tra"
+                        android:layout_width="15dp"
+                        android:layout_height="60dp"
+                        android:layout_toEndOf="@+id/txtDataDia"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="2"
+                        android:text="/"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/txtDataMes"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_toEndOf="@+id/txt_tra"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="mm"
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="2"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/txt_2_tra"
+                        android:layout_width="15dp"
+                        android:layout_height="60dp"
+                        android:layout_toEndOf="@+id/txtDataMes"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center"
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="2"
+                        android:text="/"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/txtDataAno"
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:layout_toEndOf="@+id/txt_2_tra"
+                        android:background="@color/fui_transparent"
+                        android:elevation="1dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="YYYY"
+                        android:inputType="date"
+                        android:keyboardNavigationCluster="false"
+                        android:maxLength="4"
+                        android:textColor="@color/black" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/Raca_Animal"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/rl_data"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dialog"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/txtNumChip"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/Raca_Animal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:keyboardNavigationCluster="false"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/Tipo_Pelagem_Spinner"
+                style="@android:style/Widget.DeviceDefault.Spinner"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/txtNumChip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/Tipo_Formato_Pelagem_Spinner"
+                style="@android:style/Widget.DeviceDefault.Spinner"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/Tipo_Pelagem_Spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/Tipo_Cauda_Spinner"
+                style="@android:style/Widget.DeviceDefault.Spinner"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/Tipo_Formato_Pelagem_Spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/Sexo_Animal_Spinner"
+                style="@android:style/Widget.DeviceDefault.Spinner"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/Tipo_Cauda_Spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_input"
+                android:elevation="1dp"
+                android:ems="10"
+                android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:spinnerMode="dialog"
+                android:textColor="@color/black" />
+
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:background="#2d2d2d"
+                android:id="@+id/popup_img"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:src="@drawable/ic_gallery"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Sexo_Animal_Spinner"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+
+        android:id="@+id/popup_add"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/circle_bg"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scroll"
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ProgressBar
+        android:padding="4dp"
+        android:id="@+id/popup_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_bg"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/popup_add"
+        app:layout_constraintStart_toStartOf="@+id/popup_add"
+        app:layout_constraintTop_toTopOf="@+id/popup_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

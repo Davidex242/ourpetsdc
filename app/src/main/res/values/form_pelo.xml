@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_pelagem_array_pt">
+        <item>Formato do pelo</item>
+        <item>Liso</item>
+        <item>Ondulado</item>
+        <item>Cerdoso</item>
+        <item>Encaraculado</item>
+    </string-array>
+    <string-array name="tipo_pelagem_array_cn">
+        <item>发型</item>
+        <item>光滑</item>
+        <item>波浪状的</item>
+        <item>鬃</item>
+        <item>卷曲</item>
+    </string-array>
+    <string-array name="tipo_pelagem_array_en">
+        <item>Hair format</item>
+        <item>Smooth</item>
+        <item>Wavy</item>
+        <item>Bristle</item>
+        <item>Curly</item>
+    </string-array>
+    <string-array name="tipo_pelagem_array_fr">
+        <item>Format de cheveux</item>
+        <item>Lisse</item>
+        <item>Ondulé</item>
+        <item>Poil</item>
+        <item>Frisé</item>
+    </string-array>
+</resources>

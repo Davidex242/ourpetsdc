@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pelagem_array_en">
+        <item>Coat</item>
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="pelagem_array_cn">
+        <item>涂层</item>
+        <item>喜欢</item>
+        <item>平均</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="pelagem_array_pt">
+        <item>Pelagem</item>
+        <item>Curta</item>
+        <item>Média</item>
+        <item>Comprida</item>
+    </string-array>
+    <string-array name="pelagem_array_fr">
+        <item>Manteau</item>
+        <item>Comme</item>
+        <item>Moyenne</item>
+        <item>Longue</item>
+    </string-array>
+
+</resources>

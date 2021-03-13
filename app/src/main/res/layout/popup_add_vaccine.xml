@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+                        <RelativeLayout
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <RadioGroup
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:id="@+id/group"
+                                android:layout_width="250dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/custom_input">
+
+                                <RadioButton
+                                    android:id="@+id/btnVac"
+                                    android:layout_margin="5dp"
+                                    android:layout_toEndOf="@+id/btnCao"
+                                    android:layout_width="wrap_content"
+                                    android:paddingStart="16dp"
+                                    android:paddingLeft="16dp"
+                                    android:paddingEnd="16dp"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:paddingRight="16dp"
+                                    android:layout_height="60dp"/>
+
+                                <RadioButton
+                                    android:id="@+id/btnDesp"
+                                    android:textStyle="bold"
+                                    android:layout_margin="5dp"
+                                    android:paddingStart="16dp"
+                                    android:paddingLeft="16dp"
+                                    android:paddingEnd="16dp"
+                                    android:paddingRight="16dp"
+                                    android:layout_width="wrap_content"
+                                    android:textSize="15sp"
+                                    android:layout_height="60dp"/>
+
+                            </RadioGroup>
+
+                            <Spinner
+                                android:layout_below="@+id/group"
+                                android:id="@+id/vacina"
+                                android:layout_width="250dp"
+                                android:layout_height="60dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/custom_input" />
+
+                            <RelativeLayout
+                                android:id="@+id/rl_data"
+                                android:layout_width="250dp"
+                                android:layout_height="60dp"
+                                android:layout_below="@+id/vacina"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/custom_input">
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true">
+
+                                    <!--<EditText
+                                        android:id="@+id/txtDataDia"
+                                        android:layout_width="40dp"
+                                        android:layout_height="60dp"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint="dd"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+                                        android:id="@+id/txt_tra"
+                                        android:layout_width="15dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txtDataDia"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:enabled="false"
+                                        android:gravity="center"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:text="/"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+                                        android:id="@+id/txtDataMes"
+                                        android:layout_width="40dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txt_tra"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint="mm"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+                                        android:id="@+id/txt_2_tra"
+                                        android:layout_width="15dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txtDataMes"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:enabled="false"
+                                        android:gravity="center"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:text="/"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+                                        android:id="@+id/txtDataAno"
+                                        android:layout_width="80dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txt_2_tra"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint="YYYY"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="4"
+                                        android:textColor="@color/black" />-->
+                                    <EditText
+                                        android:id="@+id/txtDataDia"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint=""
+                                        android:maxLength="10"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:textColor="@color/black" />
+
+                                </RelativeLayout>
+
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:id="@+id/rl_time"
+                                android:layout_width="250dp"
+                                android:layout_height="60dp"
+                                android:layout_below="@+id/rl_data"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="30dp"
+                                android:background="@drawable/custom_input">
+
+                                <RelativeLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true">
+
+                                    <EditText
+                                        android:id="@+id/txthora"
+                                        android:layout_width="40dp"
+                                        android:layout_height="60dp"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint="hh"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+                                        android:id="@+id/txt_dp"
+                                        android:layout_width="15dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txthora"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:enabled="false"
+                                        android:gravity="center"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:text=":"
+                                        android:textColor="@color/black" />
+
+                                    <EditText
+
+                                        android:id="@+id/txtMin"
+                                        android:layout_width="40dp"
+                                        android:layout_height="60dp"
+                                        android:layout_toEndOf="@+id/txt_dp"
+                                        android:background="@color/fui_transparent"
+                                        android:elevation="1dp"
+                                        android:ems="10"
+                                        android:gravity="center"
+                                        android:hint="mm"
+                                        android:inputType="date"
+                                        android:keyboardNavigationCluster="false"
+                                        android:maxLength="2"
+                                        android:textColor="@color/black" />
+
+
+                                </RelativeLayout>
+
+                            </RelativeLayout>
+
+                            <Button
+                                android:id="@+id/add"
+                                android:layout_width="250dp"
+                                android:layout_height="60dp"
+                                android:layout_below="@+id/rl_time"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="-2dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/custom_input"
+                                android:src="@drawable/ic_add" />
+                        </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tipo_cauda_array_en">
+        <item>Tail</item>
+        <item>Amputated</item>
+        <item>Short</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="tipo_cauda_array_pt">
+        <item>Cauda</item>
+        <item>Amputada</item>
+        <item>Curta</item>
+        <item>Comprida</item>
+    </string-array>
+    <string-array name="tipo_cauda_array_cn">
+        <item>尾巴</item>
+        <item>截肢</item>
+        <item>喜欢</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="tipo_cauda_array_fr">
+        <item>Queue</item>
+        <item>Amputé</item>
+        <item>Comme</item>
+        <item>Longue</item>
+    </string-array>
+
+</resources>

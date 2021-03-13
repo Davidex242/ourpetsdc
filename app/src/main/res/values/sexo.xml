@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_en">
+        <item>Gender</item>
+        <item> ♀️Female</item>
+        <item> ♂️Male</item>
+    </string-array>
+    <string-array name="gender_pt">
+        <item>Género</item>
+        <item> ♀️Feminino</item>
+        <item> ♂️Masculino</item>
+    </string-array>
+    <string-array name="gender_cn">
+        <item>类型</item>
+        <item> ♀️阴柔的</item>
+        <item> ♂️男</item>
+    </string-array>
+    <string-array name="gender_fr">
+        <item>Genre</item>
+        <item> ♀️Féminin</item>
+        <item> ♂️Masculin</item>
+    </string-array>
+</resources>
